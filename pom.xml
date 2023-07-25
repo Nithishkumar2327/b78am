@@ -36,12 +36,11 @@
     -->
     
 <distributionManagement>
-   <repositories>
+  
       <repository>
         <id>bcr-b78am</id>
         <url>https://bcr-230190570302.d.codeartifact.us-east-1.amazonaws.com/maven/b78am/</url>
       </repository>
-    </repositories>
     
 </distributionManagement>    
     
