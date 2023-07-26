@@ -9,14 +9,15 @@ phases:
       - echo "Package Artifact"
       #- echo Code Scanning using SonarQube
       #- mvn verify sonar:sonar
-      #- echo Publish Artifact To JFROG  
+      - echo Publish Artifact To JFROG  
   build:
     commands:
-      - echo Build started on `date`
+  - echo Build started on `date`
       - pwd
       - ls -lrta
       - ls -lrt $CODEBUILD_SRC_DIR/settings.xml
       - cp -pvr $CODEBUILD_SRC_DIR/settings.xml ~/.m2/settings.xml
+      - echo Publish Artifact To JFROG based on the User Input in POM.xml file 
       - mvn deploy
   post_build:
     commands:
