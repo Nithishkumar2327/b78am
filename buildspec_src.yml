@@ -9,7 +9,7 @@ phases:
       #- echo Code Scanning using SonarQube
       #- mvn verify sonar:sonar
      # - echo Connecting AWS CodeArtifact 
-      -echo Publish Artifact to JFROG
+      - echo Publish Artifact to JFROG
   build:
     commands:
       - echo Build started on `date`
