@@ -6,7 +6,6 @@ phases:
       java: corretto11
   pre_build:
     commands:
-      - echo "Package Artifact"
       #- echo Code Scanning using SonarQube
       #- mvn verify sonar:sonar
       - echo Publish Artifact To JFROG  
