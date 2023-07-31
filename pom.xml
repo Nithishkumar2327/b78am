@@ -15,8 +15,8 @@
 
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>nithishkumar2327</sonar.organization>
-        <sonar.projectKey>nithishkumar2327_b78am</sonar.projectKey>
-        <sonar.login>6520785ea75e104f48fee61054cb51c025cd83d4</sonar.login>
+        <sonar.projectKey>nithishkumar2327_cloudbinary-b78am</sonar.projectKey>
+        <sonar.login>779fc54490e934919731c4a3b2a41b21796b23fd</sonar.login>
         
     </properties>
 
